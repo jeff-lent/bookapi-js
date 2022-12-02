@@ -25,3 +25,17 @@ test('Given that I have an empty list, when I add additional books to the list I
     myList.addBook(book2);
     expect(myList.books.length).toBe(2);
 })
+
+test('Given that I have an empty list, when I add a new book I expect getBooks() to return a list of books that includes the book I added.', ()=>{
+    const myList = new ReadingList();
+    const title = "The Hobbit";
+    const author = "J.R.R. Tolkein";
+    const length = "320";
+    const year = 1937;
+    const myBook = new Book(title,author,length,year);
+    myList.addBook(myBook);
+    expect(myList.books[0].title).toBe(title);
+    expect(myList.books[0].author).toBe(author);
+    expect(myList.books[0].length).toBe(length);
+    expect(myList.books[0].year).toBe(year);
+})
