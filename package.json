@@ -1,0 +1,14 @@
+{
+  "name": "bookapi",
+  "version": "1.0.0",
+  "description": "Book API for learning TDD in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Jeff Lent and Jack Martin",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
