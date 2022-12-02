@@ -66,7 +66,7 @@ As the lead engineer on the project, your job is to implement the following user
 - When you are finished with the exercise, commit and push your work!
 - You will know you have setup your repo and pushed properly if you see your work in Github under your github account!
 
-##User Story
+## User Story
 As an avid reader
 I want to have a list of books I've read
 So that I can keep track of everything I've read!
