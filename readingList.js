@@ -3,4 +3,8 @@ module.exports = class readingList {
         this.books = [];
     }
 
+    addBook(book) {
+        this.books.push(book);
+    }
+
 }
